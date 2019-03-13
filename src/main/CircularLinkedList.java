@@ -39,6 +39,6 @@ public void print(){
 }
 
     public static void main(String[] args) {
-
+   CircularLinkedList linkedList = new CircularLinkedList();
     }
 }
