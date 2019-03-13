@@ -34,4 +34,7 @@ Node next;
         this.next = next;
     }
 }
+public void print(){
+
+}
 }
