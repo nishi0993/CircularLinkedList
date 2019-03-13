@@ -72,6 +72,9 @@ if (size == 0){
     size++;
 }
     }
+    public void deleteHead(){
+
+    }
 
     public static void main(String[] args) {
    CircularLinkedList linkedList = new CircularLinkedList();
