@@ -86,8 +86,6 @@ if (size!=0){
         for (int i = 0; i < 5; i++) {
             linkedList.addNodeToHead(i+42);
         }
-
-
         linkedList.print();
         linkedList.deleteHead();
         linkedList.print();
