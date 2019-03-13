@@ -67,6 +67,9 @@ if (size == 0){
 }else{
     Node node = new Node(data);
     tail.next = node;
+    tail=node;
+    tail.next=head;
+    size++;
 }
     }
 
@@ -74,6 +77,7 @@ if (size == 0){
    CircularLinkedList linkedList = new CircularLinkedList();
    linkedList.print();
    linkedList.addNodeToHead(42);
+
         linkedList.print();
     }
 }
