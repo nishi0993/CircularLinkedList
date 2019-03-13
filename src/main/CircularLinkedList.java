@@ -83,9 +83,11 @@ if (size!=0){
     public static void main(String[] args) {
    CircularLinkedList linkedList = new CircularLinkedList();
    linkedList.print();
-   linkedList.addNodeToHead(42);
-        linkedList.addNodeToTail(5);
-        linkedList.addNodeToTail(78);
+        for (int i = 0; i < 5; i++) {
+            linkedList.addNodeToHead(i+42);
+        }
+
+
         linkedList.print();
         linkedList.deleteHead();
         linkedList.print();
