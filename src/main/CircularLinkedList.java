@@ -88,5 +88,6 @@ if (size!=0){
         linkedList.addNodeToTail(78);
         linkedList.print();
         linkedList.deleteHead();
+        linkedList.print();
     }
 }
