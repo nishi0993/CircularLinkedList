@@ -43,6 +43,9 @@ do{
 while(temp!=head);
     System.out.println("");
 }
+public void addNodeToHead(int data){
+
+}
 
     public static void main(String[] args) {
    CircularLinkedList linkedList = new CircularLinkedList();
