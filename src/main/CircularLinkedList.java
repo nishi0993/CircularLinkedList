@@ -73,7 +73,12 @@ if (size == 0){
 }
     }
     public void deleteHead(){
-
+if (size!=0){
+    Node temp = head;
+    head = head.next;
+    tail.next = head;
+    size++;
+}
     }
 
     public static void main(String[] args) {
