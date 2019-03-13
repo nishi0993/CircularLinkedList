@@ -1,9 +1,9 @@
 package main;
 
 public class CircularLinkedList {
-    int size;
-    Node head;
-    Node tail;
+    int size=0;
+    Node head=null;
+    Node tail=null;
 class Node{
 int data;
 Node next;
