@@ -39,12 +39,14 @@ public void print(){
         System.out.println("list is Empty");
     }else{
 Node temp=head;
+        System.out.print("[");
 do{
-    System.out.println(" "+temp.data);
+
+    System.out.print(temp.data+" ");
     temp=temp.next;
 }
 while(temp!=head);
-    System.out.println("");}
+    System.out.println("]");}
 }
 public void addNodeToHead(int data){
 Node n = new Node(data);
