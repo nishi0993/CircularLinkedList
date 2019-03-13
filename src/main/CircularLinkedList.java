@@ -35,15 +35,18 @@ Node next;
     }
 }
 public void print(){
+    if (size == 0){
+        System.out.println("list is Empty");
+    }else{
 Node temp=head;
 do{
     System.out.println(" "+temp.data);
     temp=temp.next;
 }
 while(temp!=head);
-    System.out.println("");
+    System.out.println("");}
 }
-public void addNodeToHead(int data){
+/*public void addNodeToHead(int data){
 Node n = new Node(data);
 if(size == 0){
     head=n;
@@ -56,7 +59,7 @@ else{
     head=n;
     tail.next=head;
 }
-}
+}*/
 
     public static void main(String[] args) {
    CircularLinkedList linkedList = new CircularLinkedList();
