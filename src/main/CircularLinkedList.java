@@ -80,7 +80,6 @@ if (size!=0){
     size++;
 }
     }
-
     public static void main(String[] args) {
    CircularLinkedList linkedList = new CircularLinkedList();
    linkedList.print();
@@ -88,5 +87,6 @@ if (size!=0){
         linkedList.addNodeToTail(5);
         linkedList.addNodeToTail(78);
         linkedList.print();
+        linkedList.deleteHead();
     }
 }
