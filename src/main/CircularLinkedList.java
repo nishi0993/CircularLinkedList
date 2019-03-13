@@ -77,7 +77,8 @@ if (size == 0){
    CircularLinkedList linkedList = new CircularLinkedList();
    linkedList.print();
    linkedList.addNodeToHead(42);
-
+        linkedList.addNodeToTail(5);
+        linkedList.addNodeToTail(78);
         linkedList.print();
     }
 }
