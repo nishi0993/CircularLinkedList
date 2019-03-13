@@ -62,8 +62,11 @@ else{
 size++;
 }
 
+
     public static void main(String[] args) {
    CircularLinkedList linkedList = new CircularLinkedList();
    linkedList.print();
+   linkedList.addNodeToHead(42);
+        linkedList.print();
     }
 }
