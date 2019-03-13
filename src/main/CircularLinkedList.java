@@ -62,7 +62,12 @@ else{
 size++;
 }
     public void addNodeToTail(int data){
-
+if (size == 0){
+    addNodeToHead(data);
+}else{
+    Node node = new Node(data);
+    tail.next = node;
+}
     }
 
     public static void main(String[] args) {
