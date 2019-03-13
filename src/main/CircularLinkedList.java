@@ -35,7 +35,13 @@ Node next;
     }
 }
 public void print(){
-
+Node temp=head;
+do{
+    System.out.println(" "+temp.data);
+    temp=temp.next;
+}
+while(temp!=head);
+    System.out.println("");
 }
 
     public static void main(String[] args) {
