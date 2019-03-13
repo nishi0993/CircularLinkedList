@@ -60,5 +60,6 @@ else{
 
     public static void main(String[] args) {
    CircularLinkedList linkedList = new CircularLinkedList();
+   linkedList.print();
     }
 }
